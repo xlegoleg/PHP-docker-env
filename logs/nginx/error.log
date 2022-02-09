@@ -1,0 +1,739 @@
+2022/02/07 20:19:15 [notice] 1#1: using the "epoll" event method
+2022/02/07 20:19:15 [notice] 1#1: nginx/1.21.6
+2022/02/07 20:19:15 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/07 20:19:15 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/07 20:19:15 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/07 20:19:15 [notice] 1#1: start worker processes
+2022/02/07 20:19:15 [notice] 1#1: start worker process 26
+2022/02/07 20:19:15 [notice] 1#1: start worker process 27
+2022/02/07 20:19:15 [notice] 1#1: start worker process 28
+2022/02/07 20:19:15 [notice] 1#1: start worker process 29
+2022/02/07 20:30:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/07 20:30:47 [notice] 27#27: gracefully shutting down
+2022/02/07 20:30:47 [notice] 26#26: gracefully shutting down
+2022/02/07 20:30:47 [notice] 28#28: gracefully shutting down
+2022/02/07 20:30:47 [notice] 29#29: gracefully shutting down
+2022/02/07 20:30:47 [notice] 27#27: exiting
+2022/02/07 20:30:47 [notice] 27#27: exit
+2022/02/07 20:30:47 [notice] 26#26: exiting
+2022/02/07 20:30:47 [notice] 28#28: exiting
+2022/02/07 20:30:47 [notice] 29#29: exiting
+2022/02/07 20:30:47 [notice] 26#26: exit
+2022/02/07 20:30:47 [notice] 28#28: exit
+2022/02/07 20:30:47 [notice] 29#29: exit
+2022/02/07 20:30:47 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/02/07 20:30:47 [notice] 1#1: worker process 27 exited with code 0
+2022/02/07 20:30:47 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 20:30:47 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/02/07 20:30:47 [notice] 1#1: worker process 28 exited with code 0
+2022/02/07 20:30:47 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 20:30:47 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2022/02/07 20:30:47 [notice] 1#1: worker process 26 exited with code 0
+2022/02/07 20:30:47 [notice] 1#1: worker process 29 exited with code 0
+2022/02/07 20:30:47 [notice] 1#1: exit
+2022/02/07 20:41:13 [notice] 1#1: using the "epoll" event method
+2022/02/07 20:41:13 [notice] 1#1: nginx/1.21.6
+2022/02/07 20:41:13 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/07 20:41:13 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/07 20:41:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/07 20:41:13 [notice] 1#1: start worker processes
+2022/02/07 20:41:13 [notice] 1#1: start worker process 21
+2022/02/07 20:41:13 [notice] 1#1: start worker process 22
+2022/02/07 20:41:13 [notice] 1#1: start worker process 23
+2022/02/07 20:41:13 [notice] 1#1: start worker process 24
+2022/02/07 20:47:34 [error] 21#21: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/07 20:47:34 [error] 21#21: *1 open() "/var/www/hello.dev/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/02/07 20:47:38 [error] 21#21: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/07 20:47:43 [error] 21#21: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/07 20:49:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/07 20:49:31 [notice] 21#21: gracefully shutting down
+2022/02/07 20:49:31 [notice] 21#21: exiting
+2022/02/07 20:49:31 [notice] 23#23: gracefully shutting down
+2022/02/07 20:49:31 [notice] 24#24: gracefully shutting down
+2022/02/07 20:49:31 [notice] 22#22: gracefully shutting down
+2022/02/07 20:49:31 [notice] 21#21: exit
+2022/02/07 20:49:31 [notice] 23#23: exiting
+2022/02/07 20:49:31 [notice] 24#24: exiting
+2022/02/07 20:49:31 [notice] 24#24: exit
+2022/02/07 20:49:31 [notice] 22#22: exiting
+2022/02/07 20:49:31 [notice] 23#23: exit
+2022/02/07 20:49:31 [notice] 22#22: exit
+2022/02/07 20:49:31 [notice] 1#1: signal 17 (SIGCHLD) received from 21
+2022/02/07 20:49:31 [notice] 1#1: worker process 21 exited with code 0
+2022/02/07 20:49:31 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 20:49:31 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/07 20:49:31 [notice] 1#1: worker process 23 exited with code 0
+2022/02/07 20:49:31 [notice] 1#1: worker process 24 exited with code 0
+2022/02/07 20:49:31 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 20:49:31 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/02/07 20:49:31 [notice] 1#1: worker process 22 exited with code 0
+2022/02/07 20:49:31 [notice] 1#1: exit
+2022/02/07 20:50:47 [notice] 1#1: using the "epoll" event method
+2022/02/07 20:50:47 [notice] 1#1: nginx/1.21.6
+2022/02/07 20:50:47 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/07 20:50:47 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/07 20:50:47 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/07 20:50:47 [notice] 1#1: start worker processes
+2022/02/07 20:50:47 [notice] 1#1: start worker process 23
+2022/02/07 20:50:47 [notice] 1#1: start worker process 24
+2022/02/07 20:50:47 [notice] 1#1: start worker process 25
+2022/02/07 20:50:47 [notice] 1#1: start worker process 26
+2022/02/07 20:52:12 [error] 23#23: *1 "/var/www/hello.dev/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET / HTTP/1.1", host: "127.0.0.1"
+2022/02/07 20:54:14 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/07 20:54:14 [notice] 23#23: gracefully shutting down
+2022/02/07 20:54:14 [notice] 23#23: exiting
+2022/02/07 20:54:14 [notice] 25#25: gracefully shutting down
+2022/02/07 20:54:14 [notice] 26#26: gracefully shutting down
+2022/02/07 20:54:14 [notice] 26#26: exiting
+2022/02/07 20:54:14 [notice] 24#24: gracefully shutting down
+2022/02/07 20:54:14 [notice] 24#24: exiting
+2022/02/07 20:54:14 [notice] 23#23: exit
+2022/02/07 20:54:14 [notice] 25#25: exiting
+2022/02/07 20:54:14 [notice] 25#25: exit
+2022/02/07 20:54:14 [notice] 26#26: exit
+2022/02/07 20:54:14 [notice] 24#24: exit
+2022/02/07 20:54:14 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/07 20:54:14 [notice] 1#1: worker process 23 exited with code 0
+2022/02/07 20:54:14 [notice] 1#1: worker process 24 exited with code 0
+2022/02/07 20:54:14 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 20:54:14 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/07 20:54:14 [notice] 1#1: worker process 25 exited with code 0
+2022/02/07 20:54:14 [notice] 1#1: worker process 26 exited with code 0
+2022/02/07 20:54:14 [notice] 1#1: exit
+2022/02/07 20:54:17 [notice] 1#1: using the "epoll" event method
+2022/02/07 20:54:17 [notice] 1#1: nginx/1.21.6
+2022/02/07 20:54:17 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/07 20:54:17 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/07 20:54:17 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/07 20:54:17 [notice] 1#1: start worker processes
+2022/02/07 20:54:17 [notice] 1#1: start worker process 24
+2022/02/07 20:54:17 [notice] 1#1: start worker process 25
+2022/02/07 20:54:17 [notice] 1#1: start worker process 26
+2022/02/07 20:54:17 [notice] 1#1: start worker process 27
+2022/02/07 21:08:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/07 21:08:34 [notice] 24#24: gracefully shutting down
+2022/02/07 21:08:34 [notice] 25#25: gracefully shutting down
+2022/02/07 21:08:34 [notice] 26#26: gracefully shutting down
+2022/02/07 21:08:34 [notice] 26#26: exiting
+2022/02/07 21:08:34 [notice] 27#27: gracefully shutting down
+2022/02/07 21:08:34 [notice] 27#27: exiting
+2022/02/07 21:08:34 [notice] 24#24: exiting
+2022/02/07 21:08:34 [notice] 24#24: exit
+2022/02/07 21:08:34 [notice] 25#25: exiting
+2022/02/07 21:08:34 [notice] 25#25: exit
+2022/02/07 21:08:34 [notice] 26#26: exit
+2022/02/07 21:08:34 [notice] 27#27: exit
+2022/02/07 21:08:34 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/07 21:08:34 [notice] 1#1: worker process 24 exited with code 0
+2022/02/07 21:08:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 21:08:34 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/02/07 21:08:34 [notice] 1#1: worker process 26 exited with code 0
+2022/02/07 21:08:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 21:08:34 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/02/07 21:08:34 [notice] 1#1: worker process 27 exited with code 0
+2022/02/07 21:08:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 21:08:34 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/07 21:08:34 [notice] 1#1: worker process 25 exited with code 0
+2022/02/07 21:08:34 [notice] 1#1: exit
+2022/02/07 21:08:39 [notice] 1#1: using the "epoll" event method
+2022/02/07 21:08:39 [notice] 1#1: nginx/1.21.6
+2022/02/07 21:08:39 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/07 21:08:39 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/07 21:08:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/07 21:08:39 [notice] 1#1: start worker processes
+2022/02/07 21:08:39 [notice] 1#1: start worker process 25
+2022/02/07 21:08:39 [notice] 1#1: start worker process 26
+2022/02/07 21:08:39 [notice] 1#1: start worker process 27
+2022/02/07 21:08:39 [notice] 1#1: start worker process 28
+2022/02/07 21:11:03 [error] 26#26: *5 open() "/var/www/hello.dev/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2022/02/07 21:20:25 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/07 21:20:25 [notice] 25#25: gracefully shutting down
+2022/02/07 21:20:25 [notice] 28#28: gracefully shutting down
+2022/02/07 21:20:25 [notice] 27#27: gracefully shutting down
+2022/02/07 21:20:25 [notice] 27#27: exiting
+2022/02/07 21:20:25 [notice] 26#26: gracefully shutting down
+2022/02/07 21:20:25 [notice] 25#25: exiting
+2022/02/07 21:20:25 [notice] 28#28: exiting
+2022/02/07 21:20:25 [notice] 27#27: exit
+2022/02/07 21:20:25 [notice] 26#26: exiting
+2022/02/07 21:20:25 [notice] 26#26: exit
+2022/02/07 21:20:25 [notice] 25#25: exit
+2022/02/07 21:20:25 [notice] 28#28: exit
+2022/02/07 21:20:25 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/02/07 21:20:25 [notice] 1#1: worker process 27 exited with code 0
+2022/02/07 21:20:25 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 21:20:25 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/07 21:20:25 [notice] 1#1: worker process 25 exited with code 0
+2022/02/07 21:20:25 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 21:20:25 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2022/02/07 21:20:25 [notice] 1#1: worker process 26 exited with code 0
+2022/02/07 21:20:25 [notice] 1#1: worker process 28 exited with code 0
+2022/02/07 21:20:25 [notice] 1#1: exit
+2022/02/07 21:20:28 [notice] 1#1: using the "epoll" event method
+2022/02/07 21:20:28 [notice] 1#1: nginx/1.21.6
+2022/02/07 21:20:28 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/07 21:20:28 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/07 21:20:28 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/07 21:20:28 [notice] 1#1: start worker processes
+2022/02/07 21:20:28 [notice] 1#1: start worker process 23
+2022/02/07 21:20:28 [notice] 1#1: start worker process 24
+2022/02/07 21:20:28 [notice] 1#1: start worker process 25
+2022/02/07 21:20:28 [notice] 1#1: start worker process 26
+2022/02/07 21:22:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/07 21:22:16 [notice] 26#26: gracefully shutting down
+2022/02/07 21:22:16 [notice] 23#23: gracefully shutting down
+2022/02/07 21:22:16 [notice] 23#23: exiting
+2022/02/07 21:22:16 [notice] 24#24: gracefully shutting down
+2022/02/07 21:22:16 [notice] 24#24: exiting
+2022/02/07 21:22:16 [notice] 25#25: gracefully shutting down
+2022/02/07 21:22:16 [notice] 25#25: exiting
+2022/02/07 21:22:16 [notice] 26#26: exiting
+2022/02/07 21:22:16 [notice] 26#26: exit
+2022/02/07 21:22:16 [notice] 23#23: exit
+2022/02/07 21:22:16 [notice] 24#24: exit
+2022/02/07 21:22:16 [notice] 25#25: exit
+2022/02/07 21:22:16 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/02/07 21:22:16 [notice] 1#1: worker process 26 exited with code 0
+2022/02/07 21:22:16 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 21:22:16 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/07 21:22:16 [notice] 1#1: worker process 24 exited with code 0
+2022/02/07 21:22:16 [notice] 1#1: worker process 25 exited with code 0
+2022/02/07 21:22:16 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 21:22:16 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/07 21:22:16 [notice] 1#1: worker process 23 exited with code 0
+2022/02/07 21:22:16 [notice] 1#1: exit
+2022/02/07 21:22:22 [notice] 1#1: using the "epoll" event method
+2022/02/07 21:22:22 [notice] 1#1: nginx/1.21.6
+2022/02/07 21:22:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/07 21:22:22 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/07 21:22:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/07 21:22:22 [notice] 1#1: start worker processes
+2022/02/07 21:22:22 [notice] 1#1: start worker process 22
+2022/02/07 21:22:22 [notice] 1#1: start worker process 23
+2022/02/07 21:22:22 [notice] 1#1: start worker process 24
+2022/02/07 21:22:22 [notice] 1#1: start worker process 25
+2022/02/07 21:24:48 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/07 21:24:48 [notice] 24#24: gracefully shutting down
+2022/02/07 21:24:48 [notice] 25#25: gracefully shutting down
+2022/02/07 21:24:48 [notice] 23#23: gracefully shutting down
+2022/02/07 21:24:48 [notice] 22#22: gracefully shutting down
+2022/02/07 21:24:48 [notice] 22#22: exiting
+2022/02/07 21:24:48 [notice] 24#24: exiting
+2022/02/07 21:24:48 [notice] 25#25: exiting
+2022/02/07 21:24:48 [notice] 25#25: exit
+2022/02/07 21:24:48 [notice] 23#23: exiting
+2022/02/07 21:24:48 [notice] 22#22: exit
+2022/02/07 21:24:48 [notice] 24#24: exit
+2022/02/07 21:24:48 [notice] 23#23: exit
+2022/02/07 21:24:48 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/07 21:24:48 [notice] 1#1: worker process 24 exited with code 0
+2022/02/07 21:24:48 [notice] 1#1: worker process 25 exited with code 0
+2022/02/07 21:24:48 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 21:24:48 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/07 21:24:48 [notice] 1#1: worker process 23 exited with code 0
+2022/02/07 21:24:48 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 21:24:48 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/02/07 21:24:48 [notice] 1#1: worker process 22 exited with code 0
+2022/02/07 21:24:48 [notice] 1#1: exit
+2022/02/07 21:26:09 [notice] 1#1: using the "epoll" event method
+2022/02/07 21:26:09 [notice] 1#1: nginx/1.21.6
+2022/02/07 21:26:09 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/07 21:26:09 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/07 21:26:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/07 21:26:09 [notice] 1#1: start worker processes
+2022/02/07 21:26:09 [notice] 1#1: start worker process 23
+2022/02/07 21:26:09 [notice] 1#1: start worker process 24
+2022/02/07 21:26:09 [notice] 1#1: start worker process 25
+2022/02/07 21:26:09 [notice] 1#1: start worker process 26
+2022/02/07 21:26:10 [error] 23#23: *1 open() "/var/www/hello.dev/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/02/07 21:28:52 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/07 21:28:52 [notice] 24#24: gracefully shutting down
+2022/02/07 21:28:52 [notice] 24#24: exiting
+2022/02/07 21:28:52 [notice] 25#25: gracefully shutting down
+2022/02/07 21:28:52 [notice] 23#23: gracefully shutting down
+2022/02/07 21:28:52 [notice] 23#23: exiting
+2022/02/07 21:28:52 [notice] 26#26: gracefully shutting down
+2022/02/07 21:28:52 [notice] 26#26: exiting
+2022/02/07 21:28:52 [notice] 24#24: exit
+2022/02/07 21:28:52 [notice] 25#25: exiting
+2022/02/07 21:28:52 [notice] 25#25: exit
+2022/02/07 21:28:52 [notice] 23#23: exit
+2022/02/07 21:28:52 [notice] 26#26: exit
+2022/02/07 21:28:52 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/07 21:28:52 [notice] 1#1: worker process 24 exited with code 0
+2022/02/07 21:28:52 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 21:28:52 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/07 21:28:52 [notice] 1#1: worker process 25 exited with code 0
+2022/02/07 21:28:52 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 21:28:52 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/02/07 21:28:52 [notice] 1#1: worker process 26 exited with code 0
+2022/02/07 21:28:52 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 21:28:52 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/07 21:28:52 [notice] 1#1: worker process 23 exited with code 0
+2022/02/07 21:28:52 [notice] 1#1: exit
+2022/02/07 21:39:09 [notice] 1#1: using the "epoll" event method
+2022/02/07 21:39:09 [notice] 1#1: nginx/1.21.6
+2022/02/07 21:39:09 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/07 21:39:09 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/07 21:39:09 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/07 21:39:09 [notice] 1#1: start worker processes
+2022/02/07 21:39:09 [notice] 1#1: start worker process 22
+2022/02/07 21:39:09 [notice] 1#1: start worker process 23
+2022/02/07 21:39:09 [notice] 1#1: start worker process 24
+2022/02/07 21:39:09 [notice] 1#1: start worker process 25
+2022/02/07 21:39:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/07 21:39:46 [notice] 23#23: gracefully shutting down
+2022/02/07 21:39:46 [notice] 25#25: gracefully shutting down
+2022/02/07 21:39:46 [notice] 25#25: exiting
+2022/02/07 21:39:46 [notice] 22#22: gracefully shutting down
+2022/02/07 21:39:46 [notice] 22#22: exiting
+2022/02/07 21:39:46 [notice] 24#24: gracefully shutting down
+2022/02/07 21:39:46 [notice] 23#23: exiting
+2022/02/07 21:39:46 [notice] 23#23: exit
+2022/02/07 21:39:46 [notice] 25#25: exit
+2022/02/07 21:39:46 [notice] 22#22: exit
+2022/02/07 21:39:46 [notice] 24#24: exiting
+2022/02/07 21:39:46 [notice] 24#24: exit
+2022/02/07 21:39:46 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/02/07 21:39:46 [notice] 1#1: worker process 22 exited with code 0
+2022/02/07 21:39:46 [notice] 1#1: worker process 23 exited with code 0
+2022/02/07 21:39:46 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 21:39:46 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/07 21:39:46 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/07 21:39:46 [notice] 1#1: worker process 24 exited with code 0
+2022/02/07 21:39:46 [notice] 1#1: worker process 25 exited with code 0
+2022/02/07 21:39:46 [notice] 1#1: exit
+2022/02/07 21:40:12 [notice] 1#1: using the "epoll" event method
+2022/02/07 21:40:12 [notice] 1#1: nginx/1.21.6
+2022/02/07 21:40:12 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/07 21:40:12 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/07 21:40:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/07 21:40:12 [notice] 1#1: start worker processes
+2022/02/07 21:40:12 [notice] 1#1: start worker process 22
+2022/02/07 21:40:12 [notice] 1#1: start worker process 23
+2022/02/07 21:40:12 [notice] 1#1: start worker process 24
+2022/02/07 21:40:12 [notice] 1#1: start worker process 25
+2022/02/07 21:41:05 [error] 22#22: *1 open() "/var/www/hello.dev/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/02/07 21:47:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/07 21:47:41 [notice] 24#24: gracefully shutting down
+2022/02/07 21:47:41 [notice] 25#25: gracefully shutting down
+2022/02/07 21:47:41 [notice] 22#22: gracefully shutting down
+2022/02/07 21:47:41 [notice] 22#22: exiting
+2022/02/07 21:47:41 [notice] 23#23: gracefully shutting down
+2022/02/07 21:47:41 [notice] 23#23: exiting
+2022/02/07 21:47:41 [notice] 24#24: exiting
+2022/02/07 21:47:41 [notice] 25#25: exiting
+2022/02/07 21:47:41 [notice] 25#25: exit
+2022/02/07 21:47:41 [notice] 22#22: exit
+2022/02/07 21:47:41 [notice] 23#23: exit
+2022/02/07 21:47:41 [notice] 24#24: exit
+2022/02/07 21:47:41 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/07 21:47:41 [notice] 1#1: worker process 25 exited with code 0
+2022/02/07 21:47:41 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 21:47:41 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/07 21:47:41 [notice] 1#1: worker process 22 exited with code 0
+2022/02/07 21:47:41 [notice] 1#1: worker process 23 exited with code 0
+2022/02/07 21:47:41 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 21:47:41 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/07 21:47:41 [notice] 1#1: worker process 24 exited with code 0
+2022/02/07 21:47:41 [notice] 1#1: exit
+2022/02/07 21:50:11 [notice] 1#1: using the "epoll" event method
+2022/02/07 21:50:11 [notice] 1#1: nginx/1.21.6
+2022/02/07 21:50:11 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/07 21:50:11 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/07 21:50:11 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/07 21:50:11 [notice] 1#1: start worker processes
+2022/02/07 21:50:11 [notice] 1#1: start worker process 23
+2022/02/07 21:50:11 [notice] 1#1: start worker process 24
+2022/02/07 21:50:11 [notice] 1#1: start worker process 25
+2022/02/07 21:50:11 [notice] 1#1: start worker process 26
+2022/02/07 22:02:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/07 22:02:18 [notice] 23#23: gracefully shutting down
+2022/02/07 22:02:18 [notice] 24#24: gracefully shutting down
+2022/02/07 22:02:18 [notice] 24#24: exiting
+2022/02/07 22:02:18 [notice] 25#25: gracefully shutting down
+2022/02/07 22:02:18 [notice] 26#26: gracefully shutting down
+2022/02/07 22:02:18 [notice] 23#23: exiting
+2022/02/07 22:02:18 [notice] 24#24: exit
+2022/02/07 22:02:18 [notice] 25#25: exiting
+2022/02/07 22:02:18 [notice] 26#26: exiting
+2022/02/07 22:02:18 [notice] 23#23: exit
+2022/02/07 22:02:18 [notice] 25#25: exit
+2022/02/07 22:02:18 [notice] 26#26: exit
+2022/02/07 22:02:18 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/07 22:02:18 [notice] 1#1: worker process 24 exited with code 0
+2022/02/07 22:02:18 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 22:02:18 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/07 22:02:18 [notice] 1#1: worker process 23 exited with code 0
+2022/02/07 22:02:18 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 22:02:18 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/02/07 22:02:18 [notice] 1#1: worker process 26 exited with code 0
+2022/02/07 22:02:18 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 22:02:18 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/07 22:02:18 [notice] 1#1: worker process 25 exited with code 0
+2022/02/07 22:02:18 [notice] 1#1: exit
+2022/02/07 22:02:30 [notice] 1#1: using the "epoll" event method
+2022/02/07 22:02:30 [notice] 1#1: nginx/1.21.6
+2022/02/07 22:02:30 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/07 22:02:30 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/07 22:02:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/07 22:02:30 [notice] 1#1: start worker processes
+2022/02/07 22:02:30 [notice] 1#1: start worker process 22
+2022/02/07 22:02:30 [notice] 1#1: start worker process 23
+2022/02/07 22:02:30 [notice] 1#1: start worker process 24
+2022/02/07 22:02:30 [notice] 1#1: start worker process 25
+2022/02/07 22:03:12 [error] 22#22: *1 open() "/var/www/hello.dev/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/02/07 22:13:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/07 22:13:46 [notice] 22#22: gracefully shutting down
+2022/02/07 22:13:46 [notice] 22#22: exiting
+2022/02/07 22:13:46 [notice] 23#23: gracefully shutting down
+2022/02/07 22:13:46 [notice] 23#23: exiting
+2022/02/07 22:13:46 [notice] 25#25: gracefully shutting down
+2022/02/07 22:13:46 [notice] 25#25: exiting
+2022/02/07 22:13:46 [notice] 24#24: gracefully shutting down
+2022/02/07 22:13:46 [notice] 22#22: exit
+2022/02/07 22:13:46 [notice] 23#23: exit
+2022/02/07 22:13:46 [notice] 25#25: exit
+2022/02/07 22:13:46 [notice] 24#24: exiting
+2022/02/07 22:13:46 [notice] 24#24: exit
+2022/02/07 22:13:46 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/02/07 22:13:46 [notice] 1#1: worker process 22 exited with code 0
+2022/02/07 22:13:46 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 22:13:46 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/07 22:13:46 [notice] 1#1: worker process 23 exited with code 0
+2022/02/07 22:13:46 [notice] 1#1: worker process 24 exited with code 0
+2022/02/07 22:13:46 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 22:13:46 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/07 22:13:46 [notice] 1#1: worker process 25 exited with code 0
+2022/02/07 22:13:46 [notice] 1#1: exit
+2022/02/07 22:14:49 [notice] 1#1: using the "epoll" event method
+2022/02/07 22:14:49 [notice] 1#1: nginx/1.21.6
+2022/02/07 22:14:49 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/07 22:14:49 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/07 22:14:49 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/07 22:14:49 [notice] 1#1: start worker processes
+2022/02/07 22:14:49 [notice] 1#1: start worker process 23
+2022/02/07 22:14:49 [notice] 1#1: start worker process 24
+2022/02/07 22:14:49 [notice] 1#1: start worker process 25
+2022/02/07 22:14:49 [notice] 1#1: start worker process 26
+2022/02/07 22:15:43 [error] 23#23: *1 open() "/var/www/hello.dev/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/02/07 22:19:31 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/07 22:19:31 [notice] 23#23: gracefully shutting down
+2022/02/07 22:19:31 [notice] 23#23: exiting
+2022/02/07 22:19:31 [notice] 25#25: gracefully shutting down
+2022/02/07 22:19:31 [notice] 26#26: gracefully shutting down
+2022/02/07 22:19:31 [notice] 26#26: exiting
+2022/02/07 22:19:31 [notice] 24#24: gracefully shutting down
+2022/02/07 22:19:31 [notice] 24#24: exiting
+2022/02/07 22:19:31 [notice] 23#23: exit
+2022/02/07 22:19:31 [notice] 25#25: exiting
+2022/02/07 22:19:31 [notice] 26#26: exit
+2022/02/07 22:19:31 [notice] 24#24: exit
+2022/02/07 22:19:31 [notice] 25#25: exit
+2022/02/07 22:19:31 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/07 22:19:31 [notice] 1#1: worker process 23 exited with code 0
+2022/02/07 22:19:31 [notice] 1#1: worker process 24 exited with code 0
+2022/02/07 22:19:31 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 22:19:31 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/07 22:19:31 [notice] 1#1: worker process 25 exited with code 0
+2022/02/07 22:19:31 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/07 22:19:31 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/02/07 22:19:31 [notice] 1#1: worker process 26 exited with code 0
+2022/02/07 22:19:31 [notice] 1#1: exit
+2022/02/08 07:58:43 [notice] 1#1: using the "epoll" event method
+2022/02/08 07:58:43 [notice] 1#1: nginx/1.21.6
+2022/02/08 07:58:43 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/08 07:58:43 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/08 07:58:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/08 07:58:43 [notice] 1#1: start worker processes
+2022/02/08 07:58:43 [notice] 1#1: start worker process 23
+2022/02/08 07:58:43 [notice] 1#1: start worker process 24
+2022/02/08 07:58:43 [notice] 1#1: start worker process 25
+2022/02/08 07:58:43 [notice] 1#1: start worker process 26
+2022/02/08 08:00:44 [error] 23#23: *1 open() "/var/www/hello.dev/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/02/08 08:01:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/08 08:01:09 [notice] 26#26: gracefully shutting down
+2022/02/08 08:01:09 [notice] 26#26: exiting
+2022/02/08 08:01:09 [notice] 25#25: gracefully shutting down
+2022/02/08 08:01:09 [notice] 25#25: exiting
+2022/02/08 08:01:09 [notice] 23#23: gracefully shutting down
+2022/02/08 08:01:09 [notice] 24#24: gracefully shutting down
+2022/02/08 08:01:09 [notice] 24#24: exiting
+2022/02/08 08:01:09 [notice] 26#26: exit
+2022/02/08 08:01:09 [notice] 25#25: exit
+2022/02/08 08:01:09 [notice] 23#23: exiting
+2022/02/08 08:01:09 [notice] 23#23: exit
+2022/02/08 08:01:09 [notice] 24#24: exit
+2022/02/08 08:01:09 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/02/08 08:01:09 [notice] 1#1: worker process 26 exited with code 0
+2022/02/08 08:01:09 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/08 08:01:09 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/08 08:01:09 [notice] 1#1: worker process 25 exited with code 0
+2022/02/08 08:01:09 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/08 08:01:09 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/08 08:01:09 [notice] 1#1: worker process 23 exited with code 0
+2022/02/08 08:01:09 [notice] 1#1: worker process 24 exited with code 0
+2022/02/08 08:01:09 [notice] 1#1: exit
+2022/02/08 08:05:10 [notice] 1#1: using the "epoll" event method
+2022/02/08 08:05:10 [notice] 1#1: nginx/1.21.6
+2022/02/08 08:05:10 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/08 08:05:10 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/08 08:05:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/08 08:05:10 [notice] 1#1: start worker processes
+2022/02/08 08:05:10 [notice] 1#1: start worker process 23
+2022/02/08 08:05:10 [notice] 1#1: start worker process 24
+2022/02/08 08:05:10 [notice] 1#1: start worker process 25
+2022/02/08 08:05:10 [notice] 1#1: start worker process 26
+2022/02/08 08:08:34 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/08 08:08:34 [notice] 23#23: gracefully shutting down
+2022/02/08 08:08:34 [notice] 24#24: gracefully shutting down
+2022/02/08 08:08:34 [notice] 25#25: gracefully shutting down
+2022/02/08 08:08:34 [notice] 25#25: exiting
+2022/02/08 08:08:34 [notice] 26#26: gracefully shutting down
+2022/02/08 08:08:34 [notice] 23#23: exiting
+2022/02/08 08:08:34 [notice] 23#23: exit
+2022/02/08 08:08:34 [notice] 24#24: exiting
+2022/02/08 08:08:34 [notice] 25#25: exit
+2022/02/08 08:08:34 [notice] 26#26: exiting
+2022/02/08 08:08:34 [notice] 26#26: exit
+2022/02/08 08:08:34 [notice] 24#24: exit
+2022/02/08 08:08:34 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/02/08 08:08:34 [notice] 1#1: worker process 26 exited with code 0
+2022/02/08 08:08:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/08 08:08:34 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/08 08:08:34 [notice] 1#1: worker process 23 exited with code 0
+2022/02/08 08:08:34 [notice] 1#1: worker process 25 exited with code 0
+2022/02/08 08:08:34 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/08 08:08:34 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/08 08:08:34 [notice] 1#1: worker process 24 exited with code 0
+2022/02/08 08:08:34 [notice] 1#1: exit
+2022/02/08 08:13:18 [notice] 1#1: using the "epoll" event method
+2022/02/08 08:13:18 [notice] 1#1: nginx/1.21.6
+2022/02/08 08:13:18 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/08 08:13:18 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/08 08:13:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/08 08:13:18 [notice] 1#1: start worker processes
+2022/02/08 08:13:18 [notice] 1#1: start worker process 24
+2022/02/08 08:13:18 [notice] 1#1: start worker process 25
+2022/02/08 08:13:18 [notice] 1#1: start worker process 26
+2022/02/08 08:13:18 [notice] 1#1: start worker process 27
+2022/02/08 08:13:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/08 08:13:20 [notice] 25#25: gracefully shutting down
+2022/02/08 08:13:20 [notice] 25#25: exiting
+2022/02/08 08:13:20 [notice] 24#24: gracefully shutting down
+2022/02/08 08:13:20 [notice] 24#24: exiting
+2022/02/08 08:13:20 [notice] 27#27: gracefully shutting down
+2022/02/08 08:13:20 [notice] 27#27: exiting
+2022/02/08 08:13:20 [notice] 26#26: gracefully shutting down
+2022/02/08 08:13:20 [notice] 26#26: exiting
+2022/02/08 08:13:20 [notice] 25#25: exit
+2022/02/08 08:13:20 [notice] 24#24: exit
+2022/02/08 08:13:20 [notice] 27#27: exit
+2022/02/08 08:13:20 [notice] 26#26: exit
+2022/02/08 08:13:20 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/08 08:13:20 [notice] 1#1: worker process 24 exited with code 0
+2022/02/08 08:13:20 [notice] 1#1: worker process 25 exited with code 0
+2022/02/08 08:13:20 [notice] 1#1: worker process 26 exited with code 0
+2022/02/08 08:13:20 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/08 08:13:20 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/02/08 08:13:20 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2022/02/08 08:13:20 [notice] 1#1: worker process 27 exited with code 0
+2022/02/08 08:13:20 [notice] 1#1: exit
+2022/02/08 08:30:41 [emerg] 1#1: invalid parameter "index" in /etc/nginx/conf.d/hello-dev.conf:3
+2022/02/08 08:31:40 [notice] 1#1: using the "epoll" event method
+2022/02/08 08:31:40 [notice] 1#1: nginx/1.21.6
+2022/02/08 08:31:40 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/08 08:31:40 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/08 08:31:40 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/08 08:31:40 [notice] 1#1: start worker processes
+2022/02/08 08:31:40 [notice] 1#1: start worker process 23
+2022/02/08 08:31:40 [notice] 1#1: start worker process 24
+2022/02/08 08:31:40 [notice] 1#1: start worker process 25
+2022/02/08 08:31:40 [notice] 1#1: start worker process 26
+2022/02/08 08:39:26 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/08 08:39:26 [notice] 23#23: gracefully shutting down
+2022/02/08 08:39:26 [notice] 24#24: gracefully shutting down
+2022/02/08 08:39:26 [notice] 26#26: gracefully shutting down
+2022/02/08 08:39:26 [notice] 25#25: gracefully shutting down
+2022/02/08 08:39:26 [notice] 25#25: exiting
+2022/02/08 08:39:26 [notice] 23#23: exiting
+2022/02/08 08:39:26 [notice] 24#24: exiting
+2022/02/08 08:39:26 [notice] 26#26: exiting
+2022/02/08 08:39:26 [notice] 25#25: exit
+2022/02/08 08:39:26 [notice] 23#23: exit
+2022/02/08 08:39:26 [notice] 24#24: exit
+2022/02/08 08:39:26 [notice] 26#26: exit
+2022/02/08 08:39:26 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/08 08:39:26 [notice] 1#1: worker process 25 exited with code 0
+2022/02/08 08:39:26 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/08 08:39:26 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/08 08:39:26 [notice] 1#1: worker process 23 exited with code 0
+2022/02/08 08:39:26 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/08 08:39:26 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/02/08 08:39:26 [notice] 1#1: worker process 26 exited with code 0
+2022/02/08 08:39:26 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/08 08:39:26 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/08 08:39:26 [notice] 1#1: worker process 24 exited with code 0
+2022/02/08 08:39:26 [notice] 1#1: exit
+2022/02/08 08:39:30 [emerg] 1#1: unknown directive "listen-address=127.0.0.1" in /etc/nginx/conf.d/hello-dev.conf:2
+2022/02/08 08:44:35 [emerg] 1#1: invalid parameter "index" in /etc/nginx/conf.d/hello-dev.conf:3
+2022/02/08 08:44:52 [notice] 1#1: using the "epoll" event method
+2022/02/08 08:44:52 [notice] 1#1: nginx/1.21.6
+2022/02/08 08:44:52 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/08 08:44:52 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/08 08:44:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/08 08:44:52 [notice] 1#1: start worker processes
+2022/02/08 08:44:52 [notice] 1#1: start worker process 22
+2022/02/08 08:44:52 [notice] 1#1: start worker process 23
+2022/02/08 08:44:52 [notice] 1#1: start worker process 24
+2022/02/08 08:44:52 [notice] 1#1: start worker process 25
+2022/02/08 08:52:44 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/08 08:52:44 [notice] 24#24: gracefully shutting down
+2022/02/08 08:52:44 [notice] 24#24: exiting
+2022/02/08 08:52:44 [notice] 22#22: gracefully shutting down
+2022/02/08 08:52:44 [notice] 23#23: gracefully shutting down
+2022/02/08 08:52:44 [notice] 23#23: exiting
+2022/02/08 08:52:44 [notice] 25#25: gracefully shutting down
+2022/02/08 08:52:44 [notice] 24#24: exit
+2022/02/08 08:52:44 [notice] 22#22: exiting
+2022/02/08 08:52:44 [notice] 23#23: exit
+2022/02/08 08:52:44 [notice] 25#25: exiting
+2022/02/08 08:52:44 [notice] 25#25: exit
+2022/02/08 08:52:44 [notice] 22#22: exit
+2022/02/08 08:52:44 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/08 08:52:44 [notice] 1#1: worker process 24 exited with code 0
+2022/02/08 08:52:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/08 08:52:44 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/08 08:52:44 [notice] 1#1: worker process 23 exited with code 0
+2022/02/08 08:52:44 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/08 08:52:44 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/08 08:52:44 [notice] 1#1: worker process 22 exited with code 0
+2022/02/08 08:52:44 [notice] 1#1: worker process 25 exited with code 0
+2022/02/08 08:52:44 [notice] 1#1: exit
+2022/02/08 08:53:34 [notice] 1#1: using the "epoll" event method
+2022/02/08 08:53:34 [notice] 1#1: nginx/1.21.6
+2022/02/08 08:53:34 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/08 08:53:34 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/08 08:53:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/08 08:53:34 [notice] 1#1: start worker processes
+2022/02/08 08:53:34 [notice] 1#1: start worker process 22
+2022/02/08 08:53:34 [notice] 1#1: start worker process 23
+2022/02/08 08:53:34 [notice] 1#1: start worker process 24
+2022/02/08 08:53:34 [notice] 1#1: start worker process 25
+2022/02/08 08:55:34 [notice] 24#24: signal 15 (SIGTERM) received, exiting
+2022/02/09 18:22:31 [notice] 1#1: using the "epoll" event method
+2022/02/09 18:22:31 [notice] 1#1: nginx/1.21.6
+2022/02/09 18:22:31 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/09 18:22:31 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/09 18:22:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/09 18:22:31 [notice] 1#1: start worker processes
+2022/02/09 18:22:31 [notice] 1#1: start worker process 23
+2022/02/09 18:22:31 [notice] 1#1: start worker process 24
+2022/02/09 18:22:31 [notice] 1#1: start worker process 25
+2022/02/09 18:22:31 [notice] 1#1: start worker process 26
+2022/02/09 18:23:20 [error] 23#23: *2 open() "/var/www/hello.dev/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: hello.dev, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2022/02/09 18:30:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/09 18:30:16 [notice] 24#24: gracefully shutting down
+2022/02/09 18:30:16 [notice] 26#26: gracefully shutting down
+2022/02/09 18:30:16 [notice] 25#25: gracefully shutting down
+2022/02/09 18:30:16 [notice] 25#25: exiting
+2022/02/09 18:30:16 [notice] 23#23: gracefully shutting down
+2022/02/09 18:30:16 [notice] 24#24: exiting
+2022/02/09 18:30:16 [notice] 26#26: exiting
+2022/02/09 18:30:16 [notice] 25#25: exit
+2022/02/09 18:30:16 [notice] 23#23: exiting
+2022/02/09 18:30:16 [notice] 24#24: exit
+2022/02/09 18:30:16 [notice] 26#26: exit
+2022/02/09 18:30:16 [notice] 23#23: exit
+2022/02/09 18:30:16 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2022/02/09 18:30:16 [notice] 1#1: worker process 24 exited with code 0
+2022/02/09 18:30:16 [notice] 1#1: worker process 25 exited with code 0
+2022/02/09 18:30:16 [notice] 1#1: worker process 26 exited with code 0
+2022/02/09 18:30:16 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/09 18:30:16 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/09 18:30:16 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/09 18:30:16 [notice] 1#1: worker process 23 exited with code 0
+2022/02/09 18:30:16 [notice] 1#1: exit
+2022/02/09 18:31:06 [notice] 1#1: using the "epoll" event method
+2022/02/09 18:31:06 [notice] 1#1: nginx/1.21.6
+2022/02/09 18:31:06 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/09 18:31:06 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/09 18:31:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/09 18:31:06 [notice] 1#1: start worker processes
+2022/02/09 18:31:06 [notice] 1#1: start worker process 23
+2022/02/09 18:31:06 [notice] 1#1: start worker process 24
+2022/02/09 18:31:06 [notice] 1#1: start worker process 25
+2022/02/09 18:31:06 [notice] 1#1: start worker process 26
+2022/02/09 18:44:47 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/09 18:44:47 [notice] 24#24: gracefully shutting down
+2022/02/09 18:44:47 [notice] 23#23: gracefully shutting down
+2022/02/09 18:44:47 [notice] 26#26: gracefully shutting down
+2022/02/09 18:44:47 [notice] 25#25: gracefully shutting down
+2022/02/09 18:44:47 [notice] 24#24: exiting
+2022/02/09 18:44:47 [notice] 24#24: exit
+2022/02/09 18:44:47 [notice] 23#23: exiting
+2022/02/09 18:44:47 [notice] 26#26: exiting
+2022/02/09 18:44:47 [notice] 25#25: exiting
+2022/02/09 18:44:47 [notice] 23#23: exit
+2022/02/09 18:44:47 [notice] 26#26: exit
+2022/02/09 18:44:47 [notice] 25#25: exit
+2022/02/09 18:44:47 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/09 18:44:47 [notice] 1#1: worker process 23 exited with code 0
+2022/02/09 18:44:47 [notice] 1#1: worker process 24 exited with code 0
+2022/02/09 18:44:47 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/09 18:44:47 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/09 18:44:47 [notice] 1#1: worker process 26 exited with code 0
+2022/02/09 18:44:47 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/09 18:44:47 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/09 18:44:47 [notice] 1#1: worker process 25 exited with code 0
+2022/02/09 18:44:47 [notice] 1#1: exit
+2022/02/09 18:48:05 [notice] 1#1: using the "epoll" event method
+2022/02/09 18:48:05 [notice] 1#1: nginx/1.21.6
+2022/02/09 18:48:05 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/09 18:48:05 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/09 18:48:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/09 18:48:05 [notice] 1#1: start worker processes
+2022/02/09 18:48:05 [notice] 1#1: start worker process 22
+2022/02/09 18:48:05 [notice] 1#1: start worker process 23
+2022/02/09 18:48:05 [notice] 1#1: start worker process 24
+2022/02/09 18:48:05 [notice] 1#1: start worker process 25
+2022/02/09 18:48:27 [error] 22#22: *1 "/var/www/test.local/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: test.local, request: "GET / HTTP/1.1", host: "www.test.local"
+2022/02/09 18:48:27 [error] 22#22: *1 open() "/var/www/test.local/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: test.local, request: "GET /favicon.ico HTTP/1.1", host: "www.test.local", referrer: "http://www.test.local/"
+2022/02/09 18:48:43 [error] 23#23: *2 "/var/www/test.local/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: test.local, request: "GET / HTTP/1.1", host: "test.local"
+2022/02/09 18:48:43 [error] 23#23: *2 open() "/var/www/test.local/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: test.local, request: "GET /favicon.ico HTTP/1.1", host: "test.local", referrer: "http://test.local/"
+2022/02/09 18:49:02 [error] 23#23: *2 "/var/www/test.local/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: test.local, request: "GET / HTTP/1.1", host: "test.local"
+2022/02/09 18:49:56 [error] 23#23: *2 "/var/www/test.local/index.php" is not found (2: No such file or directory), client: 172.18.0.1, server: test.local, request: "GET / HTTP/1.1", host: "test.local"
+2022/02/09 18:50:53 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/09 18:50:53 [notice] 22#22: gracefully shutting down
+2022/02/09 18:50:53 [notice] 24#24: gracefully shutting down
+2022/02/09 18:50:53 [notice] 24#24: exiting
+2022/02/09 18:50:53 [notice] 25#25: gracefully shutting down
+2022/02/09 18:50:53 [notice] 23#23: gracefully shutting down
+2022/02/09 18:50:53 [notice] 22#22: exiting
+2022/02/09 18:50:53 [notice] 24#24: exit
+2022/02/09 18:50:53 [notice] 25#25: exiting
+2022/02/09 18:50:53 [notice] 23#23: exiting
+2022/02/09 18:50:53 [notice] 23#23: exit
+2022/02/09 18:50:53 [notice] 22#22: exit
+2022/02/09 18:50:53 [notice] 25#25: exit
+2022/02/09 18:50:53 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2022/02/09 18:50:53 [notice] 1#1: worker process 24 exited with code 0
+2022/02/09 18:50:53 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/09 18:50:53 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/09 18:50:53 [notice] 1#1: worker process 25 exited with code 0
+2022/02/09 18:50:53 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/09 18:50:53 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/09 18:50:53 [notice] 1#1: worker process 23 exited with code 0
+2022/02/09 18:50:53 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/02/09 18:50:53 [notice] 1#1: worker process 22 exited with code 0
+2022/02/09 18:50:53 [notice] 1#1: exit
+2022/02/09 18:52:30 [notice] 1#1: using the "epoll" event method
+2022/02/09 18:52:30 [notice] 1#1: nginx/1.21.6
+2022/02/09 18:52:30 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/09 18:52:30 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/09 18:52:30 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/09 18:52:30 [notice] 1#1: start worker processes
+2022/02/09 18:52:30 [notice] 1#1: start worker process 22
+2022/02/09 18:52:30 [notice] 1#1: start worker process 23
+2022/02/09 18:52:30 [notice] 1#1: start worker process 24
+2022/02/09 18:52:30 [notice] 1#1: start worker process 25
